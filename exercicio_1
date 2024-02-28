@@ -1,0 +1,14 @@
+public class exercicio_1 {
+    public static void main(String[] args) {
+
+        int janeiro = 15000;
+        int fevereiro = 23000;
+        int marco = 17000;
+
+        int soma = janeiro + fevereiro + marco;
+        double media = (janeiro + fevereiro + marco)/3;
+
+        System.out.println("A soma das despesas é" + soma);
+        System.out.println("A média de gastos será " + media);
+    }
+}
