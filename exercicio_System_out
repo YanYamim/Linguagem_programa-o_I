@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Olá, como está?");
+
+        System.out.println("Olá, Mundo");
+        System.out.println("Testando mundo");
+
+        System.out.println("\nQuebra de linha\nOutra quebra da linha");
+
+    }
+}
