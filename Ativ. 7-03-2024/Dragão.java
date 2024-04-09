@@ -15,8 +15,8 @@ public class Dragão {
         System.out.println("O " + especie + "está lutando");
     }
 
-    public void sobreviver(){
-        System.out.println("O " + especie + "está sobrevivendo");
+    public void comer(){
+        System.out.println("O " + especie + "está comendo");
     }
 
     public void reproduzir(){
@@ -26,17 +26,17 @@ public class Dragão {
     public static void main(String[] args){
         Dragão dragao1 = new Dragão("Gronkel ", "Marrom", "Pequeno", "Rocha");
         dragao1.lutar();
-        dragao1.sobreviver();
+        dragao1.comer();
         dragao1.reproduzir();
 
         Dragão dragao2 = new Dragão("Escalderível ", "Verde", "Grande", "Marinha");
         dragao2.lutar();
-        dragao2.sobreviver();
+        dragao2.comer();
         dragao2.reproduzir();
 
         Dragão dragao3 = new Dragão("Fúria da Noite ", "Preto", "Médio", "Mistério");
         dragao3.lutar();
-        dragao3.sobreviver();
+        dragao3.comer();
         dragao3.reproduzir();
     }
 }
